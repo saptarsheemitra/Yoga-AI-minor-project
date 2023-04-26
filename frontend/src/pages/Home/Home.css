@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(https://fonts.cdnfonts.com/css/helvetica-neue-9);
+  }
+.home-header {
+    background:#e9ecef;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-container {
+    background:#212529
+}
+.header-btn:hover {
+    border-color: white;
+}
+
+.home-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 44px;
+    margin-left: 30px;
+    color: #212529;
+    font-weight: 900;
+    
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.home-main {
+    margin: auto;
+    margin-top: -100px;
+    width: 100vw;
+    height: 94vh;    
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(33, 37, 41, 0.8)), url('../../utils/images/dim2.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  1920px;
+}
+
+.description {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    margin-top: 40px;
+    font-weight:700;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.btn-section {
+    position: absolute;
+    left: 38vw;
+    top: 60vh;
+}
+
+.btn{
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px 20px 10px 20px;
+    background-color: #dee2e6;
+    color:#212529 ;
+    font-size: 24px;
+
+    cursor: pointer;
+}
+.btn:hover {
+    background: #adb5bd;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+#about-btn {
+    padding: 5px 10px;
+    color:#e9ecef ;
+    background-color: #212529;
+}
+#about-btn:hover {
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+#about-btn:focus {
+    box-shadow: none;
+    background: white;
+    border-color: white;
+    color: black;
+}
